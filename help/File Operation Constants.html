@@ -1,0 +1,169 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>File Operation Flags</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <link href="default.css" rel="stylesheet" type="text/css">
+  <style>
+<!--
+.borderwrap{ /* this will affect the outlining border of all the tables and boxes through-out the skin. */
+	background: #FFF;
+	border: 1px solid #072A66;
+	padding: 0px;
+	margin: 0px;
+}
+
+.ipbtable { width:100% }
+
+table.ipbtable
+{ /* required for text in tables, because tables do not inherit from body */
+	background: transparent;
+	color: #222;
+	font-size: 11px;
+	line-height: 135%;
+}
+
+.post2{
+	background: #EEF2F7;
+}
+
+.ipbtable td{ /* gives all tables faux cellpadding of 5px */
+	padding: 5px;
+}
+
+.postcolor{
+	font-size: 12px;
+	line-height: 160%;
+}
+
+.geshimain
+{
+	background: #f0f0f0;
+	border: 1px solid #000;
+	color: #000;
+	font-family: 'Courier New', Courier, monospace;
+	margin: 0 auto 0 auto;
+	padding: 2px;
+	width: 98%;
+	line-height: 133%;
+}
+
+.autoit  {font-family: 'Courier New', Courier, monospace; background-color: #f0f0f0; color: #000000; line-height:133%;}
+.autoit .kw1 {color: #0000ff;}
+.autoit .re0 {color: #5A5A5A;}
+-->
+  </style>
+</head>
+
+<body>
+<h1>File Operation Flags</h1>
+<br>
+<p>This page contains a list of the flag constants that can be used with these file operation functions: _FileCopyDlg, _FileMoveDlg, _FileRenameDlg, and _FileDeleteDlg. </p>
+<p><strong>Note:</strong> The &quot;Value&quot; is given just for reference, you should always use the &quot;name&quot; of the flag in order to keep your scripts readable.</p>
+<p>
+<br>
+</p>
+<table border="1" style="width: 100%;" cellspacing="0" cellpadding="3" bordercolor="#c0c0c0">
+<tr style="color: rgb(255, 255, 255);">
+  <th style="background-color: rgb(0, 0, 153); width: 20%;">Flag</th>
+  <th style="background-color: rgb(0, 0, 153); width: 10%;">Value</th>
+  <th style="background-color: rgb(0, 0, 153);"><b>Description</b></th>
+</tr>
+<tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td><p align=center>All flag constants are defined within the library. No additional includes required.</p></td>
+</tr>
+<tr>
+  <td>Default/forced for all operations.</td>
+  <td>0x0000</td>
+  <td>Use default parameters.</td>
+</tr>
+<tr>
+  <td>$FOF_ALLOWUNDO</td>
+  <td>0x0040</td>
+  <td>Copies the files specified in pFrom ($source) to the location specified in pTo ($dest).</td>
+</tr>
+<tr>
+  <td>$FOF_CONFIRMMOUSE</td>
+  <td>0x0002</td>
+  <td>Not currently implemented.</td>
+</tr>
+<tr>
+  <td>$FOF_FILESONLY</td>
+  <td>0x0080</td>
+  <td>Perform the operation on files only if a wildcard file name (*.*) is specified.</td>
+</tr>
+<tr>
+  <td>$FOF_MULTIDESTFILES</td>
+  <td>0x0001</td>
+  <td>The pTo ($dest) member specifies multiple destination files (one for each source file)
+  rather than one directory where all source files are to be deposited.</td>
+</tr>
+<tr>
+  <td>$FOF_NOCONFIRMATION </td>
+  <td>0x0010</td>
+  <td>Respond with "Yes to All" for any dialog box that is displayed.</td>
+</tr>
+<tr>
+  <td>$FOF_NOCONFIRMMKDIR</td>
+  <td>0x0200</td>
+  <td>Does not confirm the creation of a new directory if the operation requires one to be created.</td>
+</tr>
+<tr>
+  <td>$FOF_NOCOPYSECURITYATTRIBS</td>
+  <td>0x0800</td>
+  <td>Do not copy NT file Security Attributes.</td>
+</tr>
+<tr>
+  <td>$FOF_NOERRORUI</td>
+  <td>0x0400</td>
+  <td>No user interface will be displayed if an error occurs.</td>
+</tr>
+<tr>
+  <td>$FOF_NORECURSION</td>
+  <td>0x1000</td>
+  <td>Do not recurse directories (i.e. no recursion into subdirectories).</td>
+</tr>
+<tr>
+  <td>$FOF_RENAMEONCOLLISION</td>
+  <td>0x0008</td>
+  <td>Give the file being operated on a new name in a move, 
+  copy, or rename operation if a file with the target name already exisits.</td>
+</tr>
+<tr>
+  <td>$FOF_SILENT</td>
+  <td>0x0004</td>
+  <td>Does not display a progress dialog box.</td>
+</tr>
+<tr>
+  <td>$FOF_SIMPLEPROGRESS</td>
+  <td>0x0100</td>
+  <td>Displays a progress box but does not show the file names.</td>
+</tr>
+<tr>
+  <td>$FOF_WANTMAPPINGHANDLE</td>
+  <td>0x0020</td>
+  <td>If $FOF_RENAMEONCOLLISION is specified, the hNameMappings member 
+  will be filled in if any files were renamed.</td>
+</tr>
+<tr>
+  <td>$FOF_NO_CONNECTED_ELEMENTS</td>
+  <td>0x2000</td>
+  <td>Do not operate on connected elements.  Requires Internet Explorer 5 or higher.</td>
+</tr>
+<tr>
+  <td>$FOF_WANTNUKEWARNING</td>
+  <td>0x4000</td>
+  <td>During delete operations, warn if permanent deleting instead of placing in recycle bin
+  (partially overrides $FOF_NOCONFIRMATION).  Requires Internet Explorer 5 or higher.</td>
+</tr>
+<tr>
+  <td>$FOF_NORECURSEREPARSE</td>
+  <td>0x8000</td>
+  <td>Currently undocumented.  Not recommended.</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="about">
+		<param name="Name" value="CyrusBuilt File Utilities Library">
+		<param name="Local" value="About.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="array">
+		<param name="Name" value="Function _DiskInfoToArray">
+		<param name="Local" value="_DiskInfoToArray.html">
+		<param name="Name" value="Function _FileRecurseBuildList">
+		<param name="Local" value="_FileRecurseBuildList.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="changelog">
+		<param name="Name" value="Untitled: d:\dev\AutoIT Dev\FileLib\help\changelog.txt">
+		<param name="Local" value="changelog.txt">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="compare">
+		<param name="Name" value="Function _FileCompare">
+		<param name="Local" value="_FileCompare.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="constants">
+		<param name="Name" value="File Operation Flags">
+		<param name="Local" value="File Operation Constants.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="copy">
+		<param name="Name" value="Function _FileCopyDlg">
+		<param name="Local" value="_FileCopyDlg.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="delete">
+		<param name="Name" value="Function _FileDeleteDlg">
+		<param name="Local" value="_FileDeleteDlg.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="dialog">
+		<param name="Name" value="Function _FileCopyDlg">
+		<param name="Local" value="_FileCopyDlg.html">
+		<param name="Name" value="Function _FileMoveDlg">
+		<param name="Local" value="_FileMoveDlg.html">
+		<param name="Name" value="Function _FileDeleteDlg">
+		<param name="Local" value="_FileDeleteDlg.html">
+		<param name="Name" value="Function _FileRenameDlg">
+		<param name="Local" value="_FileRenameDlg.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="dir">
+		<param name="Name" value="Function _FileIsDir">
+		<param name="Local" value="_FileIsDir.html">
+		<param name="Name" value="Function _FileCheckDirEmpty">
+		<param name="Local" value="_FileCheckDirEmpty.html">
+		<param name="Name" value="Function _FileGetDirFromPath">
+		<param name="Local" value="_FileGetDirFromPath.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="diskexist">
+		<param name="Name" value="Function _DiskExist">
+		<param name="Local" value="_DiskExist.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="diskinfo">
+		<param name="Name" value="Function _DiskInfoToArray">
+		<param name="Local" value="_DiskInfoToArray.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="diskisnetwork">
+		<param name="Name" value="Function _DiskIsNetwork">
+		<param name="Local" value="_DiskIsNetwork.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="empty">
+		<param name="Name" value="Function _FileCheckDirEmpty">
+		<param name="Local" value="_FileCheckDirEmpty.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="extension">
+		<param name="Name" value="Function _FileExtension">
+		<param name="Local" value="_FileExtension.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filecheckdirempty">
+		<param name="Name" value="Function _FileCheckDirEmpty">
+		<param name="Local" value="_FileCheckDirEmpty.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filecompare">
+		<param name="Name" value="Function _FileCompare">
+		<param name="Local" value="_FileCompare.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filecopy">
+		<param name="Name" value="Function _FileCopyDlg">
+		<param name="Local" value="_FileCopyDlg.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filedelete">
+		<param name="Name" value="Function _FileDeleteDlg">
+		<param name="Local" value="_FileDeleteDlg.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="fileextension">
+		<param name="Name" value="Function _FileExtension">
+		<param name="Local" value="_FileExtension.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filegetfilename">
+		<param name="Name" value="Function _FileGetFileName">
+		<param name="Local" value="_FileGetFileName.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filegetdirfrompath">
+		<param name="Name" value="Function _FileGetDirFromPath">
+		<param name="Local" value="_FileGetDirFromPath.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="fileisdir">
+		<param name="Name" value="Function _FileIsDir">
+		<param name="Local" value="_FileIsDir.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filemove">
+		<param name="Name" value="Function _FileMoveDlg">
+		<param name="Local" value="_FileMoveDlg.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filename">
+		<param name="Name" value="Function _FileGetFileName">
+		<param name="Local" value="_FileGetFileName.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filerecursion">
+		<param name="Name" value="Function _FileRecurseBuildList">
+		<param name="Local" value="_FileRecurseBuildList.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filerename">
+		<param name="Name" value="Function _FileRenameDlg">
+		<param name="Local" value="_FileRenameDlg.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filetruncatename">
+		<param name="Name" value="Function _FileTruncateName">
+		<param name="Local" value="_FileTruncateName.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="flags">
+		<param name="Name" value="File Operation Flags">
+		<param name="Local" value="File Operation Constants.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="functions">
+		<param name="Name" value="Functions">
+		<param name="Local" value="Function Reference.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="gpl">
+		<param name="Name" value="Untitled: d:\dev\AutoIT Dev\FileLib\help\license.txt">
+		<param name="Local" value="license.txt">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="license">
+		<param name="Name" value="Untitled: d:\dev\AutoIT Dev\FileLib\help\license.txt">
+		<param name="Local" value="license.txt">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="move">
+		<param name="Name" value="Function _FileMoveDlg">
+		<param name="Local" value="_FileMoveDlg.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="network">
+		<param name="Name" value="Function _DiskIsNetwork">
+		<param name="Local" value="_DiskIsNetwork.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="recurse">
+		<param name="Name" value="Function _FileRecurseBuildList">
+		<param name="Local" value="_FileRecurseBuildList.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="rename">
+		<param name="Name" value="Function _FileRenameDlg">
+		<param name="Local" value="_FileRenameDlg.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="truncate">
+		<param name="Name" value="Function _FileTruncateName">
+		<param name="Local" value="_FileTruncateName.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="version">
+		<param name="Name" value="Function _GetFileLibVersion">
+		<param name="Local" value="_GetFileLibVersion.html">
+		</OBJECT>
+</UL>
+</BODY></HTML>

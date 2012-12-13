@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Function _FileGetFileName</title>
+<link href="default.css" rel="stylesheet" type="text/css"
+</head>
+
+<body>
+<h1>Function Reference</h1>
+<font size="+1">_FileGetFileName</font>
+<hr size="2" />
+<p>Gets the file name from the specified file path.<br /></p>
+
+<p class="codeheader">
+_FileGetFileName ( Path )<br />
+</p>
+<p>&nbsp;</p>
+
+<p><b>Parameters</b></p>
+<table border="1" width="100%" cellspacing="0" cellpadding="3" bordercolor="#C0C0C0">
+	<tr>
+		<td width="15%">Path</td>
+		<td width="85%">A full file path (drive, directory, filename).</td>
+	</tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p><b>Return Value</b></p>
+<b>Success</b> - The file name string (minus the rest of the path).<br />
+<b>Failure</b> - Returns a blank string ( "" ) and sets @error to:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 - Specified path does not exist.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 - Specified path is a directory.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 - Could not split specified path into an array (no path separator detected).  This will occur
+if *only* a file name is specified and not an actual path.<br />
+<p>&nbsp;</p>
+
+<p><b>Remarks</b></p>
+None.<br />
+<br />
+<p>&nbsp;</p>
+
+<p><b>Related</b></p>
+<a href="_FileIsDir.html">_FileIsDir</a>
+<p>&nbsp;</p>
+
+<p><b>Example</b></p>
+<p class="codebox">
+<br />
+<span><span class="syntax">#include</span><span class="space"> </span><span class="string">"FileLib.au3"</span><br />
+<span class="var">$Result</span><span class="space"> </span><span class="operator">=</span><span class="space"> </span><span class="method">_FileGetFileName</span><span class="operator">(</span><span class="string">"C:\temp\myfile.txt"</span><span class="operator">)</span>
+<br />
+<span class="comment">;$Result = "myfile.txt"</span>
+</body>
+</html>

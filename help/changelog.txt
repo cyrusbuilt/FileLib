@@ -1,0 +1,59 @@
+=============================================================
+Name.........: FileLib.au3
+Author.......: Chris Brunner <cyrusbuilt at gmail dot com>
+Last modified: 1/15/09
+=============================================================
+
+11/22/08
+Version 1.0.0.0
+- Added: _FileExtension, _FileCompare, _DiskExist, _FileIsDir
+
+12/10/08
+Version 1.0.0.1
+- Changed: Now licensed under GPL v2.
+- Added: 'MustDeclareVars' option.
+- Added: #include-once directive.
+
+12/15/08
+Version 1.0.0.2
+- Added: _FileRecurseBuildList
+- Changed: _FileCompare now sets @extended to ERRORLEVEL returned by the 'FC' command.
+- Changed: _FileCompare now checks to see if $File1 and $File2 are directories.
+- Changed: _FileIsDir now sets @error = 1 if $Path does not exist.
+
+12/16/08
+Version 1.0.0.3
+- Added: _DiskInfoToArray, _DiskIsNetwork
+- Added: Compiled HTML help file for API documentation.
+
+12/17/08
+Version 1.0.0.4
+- Changed: _FileRecurseBuildList now checks to see if $Path is an empty string and checks to see if $aFiles is an array.
+- Added: _FileGetFileName
+
+12/23/08
+Version 1.0.0.5
+Changed: Renamed version global constant to $CB_FILE_LIB_VER.
+Changed: _GetFileLibVersion modified to reflect name change of version global constant.
+Added: The following File Operation constants: $F0_COPY, $FO_DELETE, $FO_MOVE, $FO_RENAME, $FOF_ALLOWUNDO, $FOF_CONFIRMMOUSE,
+$FOF_FILESONLY, $FOF_MULTDESTFILES, $FOF_NOCONFIRMATION, $FOF_NOCONFIRMMKDIR, $FOF_NOCOPYSECURITYATTRIBS, $FOF_NOERRORUI,
+$FOF_NORECURSION, $FOF_RENAMECOLLISION, $FOF_SILENT, $FOF_SIMPLEPROGRESS, $FOF_WANTMAPPINGHANDLE, $FOF_NO_CONNECTED_ELEMENTS,
+$FOF_WANTNUKEWARNING, $FOF_NORECURSEPARSE.
+Added: _FileCopyDlg, _FileMoveDlg, _FileRenameDlg, _FileDeleteDlg
+Added: _SHFileOperation (INTERNAL ONLY)
+
+12/26/08
+Version 1.0.0.6
+Added: _TrimTrailingDelimiter (INTERNAL ONLY)
+Changed: _FileCopyDlg now uses _TrimTrailingDelimiter on $source and $dest.
+Changed: _FileMoveDlg now uses _TrimTrailingDelimiter on $source and $dest.
+Changed: _FileDeleteDlg now uses _TrimTrailingDelimiter on $path.
+Changed: _FileRenameDlg now uses _TrimTrailingDelimiter on $old_name and $new_name.
+
+01/09/09
+Version 1.0.0.7
+Added: _FileCheckDirEmpty, _FileGetFileName
+
+01/15/09
+Version 1.0.0.8
+Added: _FileGetDirFromPath, _FileTruncateName

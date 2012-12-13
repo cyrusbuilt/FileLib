@@ -1,0 +1,47 @@
+[OPTIONS]
+Auto Index=Yes
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=chm\CyrusBuilt FileLib.chm
+Contents file=Table of Contents.hhc
+Default Window=FileLib Window
+Default topic=About.html
+Display compile progress=Yes
+Enhanced decompilation=Yes
+Error log file=compile.log
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x409 English (United States)
+Title=CyrusBuilt File Utilities Library Help
+
+[WINDOWS]
+FileLib Window="CyrusBuilt File Utilities Library Help","Table of Contents.hhc","Index.hhk","About.html","About.html",,,,,0x22420,,0x307e,,,,,,,,0
+
+
+[FILES]
+Function Reference.html
+_DiskExist.html
+_FileCompare.html
+_FileExtension.html
+_FileIsDir.html
+_FileRecurseBuildList.html
+_GetFileLibVersion.html
+About.html
+license.txt
+blue_gradient_1024x24.jpg
+changelog.txt
+default.css
+_DiskInfoToArray.html
+_DiskIsNetwork.html
+_FileGetFileName.html
+File Operation Constants.html
+_FileCopyDlg.html
+_FileMoveDlg.html
+_FileDeleteDlg.html
+_FileRenameDlg.html
+_FileCheckDirEmpty.html
+_FileGetDirFromPath.html
+_FileTruncateName.html
+
+[INFOTYPES]
+

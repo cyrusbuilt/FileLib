@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="About">
+		<param name="Local" value="About.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Function Reference">
+		<param name="Local" value="Function Reference.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_GetFileLibVersion">
+			<param name="Local" value="_GetFileLibVersion.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileExtension">
+			<param name="Local" value="_FileExtension.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileCompare">
+			<param name="Local" value="_FileCompare.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_DiskExist">
+			<param name="Local" value="_DiskExist.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_DiskInfoToArray">
+			<param name="Local" value="_DiskInfoToArray.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_DiskIsNetwork">
+			<param name="Local" value="_DiskIsNetwork.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileIsDir">
+			<param name="Local" value="_FileIsDir.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileCheckDirEmpty">
+			<param name="Local" value="_FileCheckDirEmpty.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileRecurseBuildList">
+			<param name="Local" value="_FileRecurseBuildList.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileGetFileName">
+			<param name="Local" value="_FileGetFileName.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileGetDirFromPath">
+			<param name="Local" value="_FileGetDirFromPath.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileCopyDlg">
+			<param name="Local" value="_FileCopyDlg.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileMoveDlg">
+			<param name="Local" value="_FileMoveDlg.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileDeleteDlg">
+			<param name="Local" value="_FileDeleteDlg.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileRenameDlg">
+			<param name="Local" value="_FileRenameDlg.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileTruncateName">
+			<param name="Local" value="_FileTruncateName.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Flags">
+		<param name="Local" value="File Operation Constants.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="License">
+		<param name="Local" value="license.txt">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Changelog">
+		<param name="Local" value="changelog.txt">
+		</OBJECT>
+</UL>
+</BODY></HTML>

@@ -1,0 +1,39 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling d:\dev\AutoIT Dev\FileLib\help\chm\CyrusBuilt FileLib.chm
+
+Function Reference.html
+_DiskExist.html
+_FileCompare.html
+_FileExtension.html
+_FileIsDir.html
+_FileRecurseBuildList.html
+_GetFileLibVersion.html
+About.html
+license.txt
+blue_gradient_1024x24.jpg
+changelog.txt
+default.css
+_DiskInfoToArray.html
+_DiskIsNetwork.html
+_FileGetFileName.html
+File Operation Constants.html
+_FileCopyDlg.html
+_FileMoveDlg.html
+_FileDeleteDlg.html
+_FileRenameDlg.html
+_FileCheckDirEmpty.html
+_FileGetDirFromPath.html
+_FileTruncateName.html
+Table of Contents.hhc
+Index.hhk
+
+Compile time: 0 minutes, 0 seconds
+23	Topics
+164	Local links
+5	Internet links
+0	Graphics
+
+
+Created d:\dev\AutoIT Dev\FileLib\help\chm\CyrusBuilt FileLib.chm, 39,580 bytes
+Compression decreased file by 64,885 bytes.

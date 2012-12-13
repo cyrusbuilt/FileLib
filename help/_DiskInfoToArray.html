@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Function _DiskInfoToArray</title>
+<link href="default.css" rel="stylesheet" type="text/css"
+</head>
+
+<body>
+<h1>Function Reference</h1>
+<font size="+1">_DiskInfoToArray</font>
+<hr size="2" />
+<p>Returns an array containing info about a specified drive letter.<br /></p>
+
+<p class="codeheader">
+_DiskInfoToArray ( Drive )<br />
+</p>
+<p>&nbsp;</p>
+
+<p><b>Parameters</b></p>
+<table border="1" width="100%" cellspacing="0" cellpadding="3" bordercolor="#C0C0C0">
+	<tr>
+		<td width="15%">Drive</td>
+		<td width="85%">A logical drive letter followed by a colon. i.e.: "D:"</td>
+	</tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p><b>Return Value</b></p>
+<b>Success</b> - An array with the following elements:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0 - Drive status ("UNKNOWN", "READY", or "NOTREADY")<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 - Drive label<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 - Drive type ("Unknown", "Removable", "Fixed", "Network", "CDROM", or "RAMDisk")<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 - Drive serial number<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 - Filesystem ("FAT", "FAT32", "NTFS", "NWFS", "CDFS", "UDF", or 1 if RAW or volume not in drive)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 - Volume free space (MB)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 - Volume used space (MB)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7 - Volume total space (MB)<br /><br />
+<b>Failure</b> - Sets @error = 1 if specified drive does not exist.
+<p>&nbsp;</p>
+
+<p><b>Remarks</b></p>
+None.<br />
+<br />
+<p>&nbsp;</p>
+
+<p><b>Related</b></p>
+<a href="_DiskExist.html">_DiskExist</a>,&nbsp;<a href="_DiskIsNetwork.html">_DiskIsNetwork</a>
+<p>&nbsp;</p>
+
+<p><b>Example</b></p>
+<p class="codebox">
+<br />
+<span><span class="syntax">#include</span><span class="space"> </span><span class="string">"FileLib.au3"</span><br />
+<span><span class="syntax">#include</span><span class="space"> </span><span class="string">&lt;Array.au3&gt;</span><br /><br />
+<span class="var">$Result</span><span class="space"> </span><span class="operator">=</span><span class="space"> </span><span class="method">_DiskInfoToArray</span><span class="operator">(</span><span class="string">"C:"</span><span class="operator">)</span><br />
+<span class="method">_ArrayDisplay</span><span class="operator">(</span><span class="var">$Result</span><span class="operator">)</span>
+</body>
+</html>

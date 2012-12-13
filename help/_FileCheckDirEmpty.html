@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Function _FileCheckDirEmpty</title>
+<link href="default.css" rel="stylesheet" type="text/css"
+</head>
+
+<body>
+<h1>Function Reference</h1>
+<font size="+1">_FileCheckDirEmpty</font>
+<hr size="2" />
+<p>Checks to see if a specified directory is empty.<br /></p>
+
+<p class="codeheader">
+_FileCheckDirEmpty ( Path )<br />
+</p>
+<p>&nbsp;</p>
+
+<p><b>Parameters</b></p>
+<table border="1" width="100%" cellspacing="0" cellpadding="3" bordercolor="#C0C0C0">
+	<tr>
+		<td width="15%">Path</td>
+		<td width="85%">A full directory path (MUST be a directory).</td>
+	</tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p><b>Return Value</b></p>
+<b>Success</b> - True. Directory is empty.<br />
+<b>Failure</b> - False.  Sets @error to 1 if $Path is not a directory or does not exist.  Sets @error to 2 if unable
+to establish a search handle for $Path.
+<p>&nbsp;</p>
+
+<p><b>Remarks</b></p>
+None.<br />
+<br />
+<p>&nbsp;</p>
+
+<p><b>Related</b></p>
+<a href="_FileIsDir.html">_FileIsDir</a>
+<p>&nbsp;</p>
+
+<p><b>Example</b></p>
+<p class="codebox">
+<br />
+<span><span class="syntax">#include</span><span class="space"> </span><span class="string">"FileLib.au3"</span><br />
+<br />
+<span class="syntax">If</span><span class="space"> </span><span class="method">_FileCheckDirEmpty</span><span class="operator">(</span><span class="string">"C:\temp"</span><span class="operator">)</span><span class="space"> </span><span class="operator">=</span><span class="space"> </span><span class="syntax">False Then</span>
+<br />
+<span class="space">&nbsp;&nbsp;&nbsp;</span><span class="syntax">MsgBox</span><span class="operator">(</span><span class="number">0</span><span class="operator">,<span class="space"> </span><span class="string">"Dir Check"</span><span class="operator">,</span><span class="space"> </span><span class="string">"Directory not empty!"</span><span class="operator">)</span>
+<br />
+<span class="syntax">EndIf</span>
+</body>
+</html>
