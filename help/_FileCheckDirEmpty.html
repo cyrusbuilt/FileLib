@@ -13,14 +13,14 @@
 <p>Checks to see if a specified directory is empty.<br /></p>
 
 <p class="codeheader">
-_FileCheckDirEmpty ( Path )<br />
+_FileCheckDirEmpty ( "path" )<br />
 </p>
 <p>&nbsp;</p>
 
 <p><b>Parameters</b></p>
 <table border="1" width="100%" cellspacing="0" cellpadding="3" bordercolor="#C0C0C0">
 	<tr>
-		<td width="15%">Path</td>
+		<td width="15%">path</td>
 		<td width="85%">A full directory path (MUST be a directory).</td>
 	</tr>
 </table>
@@ -29,8 +29,7 @@ _FileCheckDirEmpty ( Path )<br />
 
 <p><b>Return Value</b></p>
 <b>Success</b> - True. Directory is empty.<br />
-<b>Failure</b> - False.  Sets @error to 1 if $Path is not a directory or does not exist.  Sets @error to 2 if unable
-to establish a search handle for $Path.
+<b>Failure</b> - False.  Sets @error to 1 if $path is not a directory or does not exist.
 <p>&nbsp;</p>
 
 <p><b>Remarks</b></p>

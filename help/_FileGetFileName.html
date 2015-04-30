@@ -13,14 +13,14 @@
 <p>Gets the file name from the specified file path.<br /></p>
 
 <p class="codeheader">
-_FileGetFileName ( Path )<br />
+_FileGetFileName ( "path" )<br />
 </p>
 <p>&nbsp;</p>
 
 <p><b>Parameters</b></p>
 <table border="1" width="100%" cellspacing="0" cellpadding="3" bordercolor="#C0C0C0">
 	<tr>
-		<td width="15%">Path</td>
+		<td width="15%">path</td>
 		<td width="85%">A full file path (drive, directory, filename).</td>
 	</tr>
 </table>
@@ -30,7 +30,7 @@ _FileGetFileName ( Path )<br />
 <p><b>Return Value</b></p>
 <b>Success</b> - The file name string (minus the rest of the path).<br />
 <b>Failure</b> - Returns a blank string ( "" ) and sets @error to:<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 - Specified path does not exist.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 - The value specified for path is empty or not a string at all.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 - Specified path is a directory.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 - Could not split specified path into an array (no path separator detected).  This will occur
 if *only* a file name is specified and not an actual path.<br />

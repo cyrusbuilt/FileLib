@@ -42,6 +42,11 @@ _FileRenameDlg.html
 _FileCheckDirEmpty.html
 _FileGetDirFromPath.html
 _FileTruncateName.html
+_FileGetSystemDrive.html
+_FileGetProfilesDir.html
+_FileRemoveDirIfEmpty.html
+_DirMakeSymLink.html
+_DirIsSymlink.html
 
 [INFOTYPES]
 

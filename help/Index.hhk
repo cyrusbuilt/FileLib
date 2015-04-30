@@ -61,6 +61,8 @@
 		<param name="Local" value="_FileCheckDirEmpty.html">
 		<param name="Name" value="Function _FileGetDirFromPath">
 		<param name="Local" value="_FileGetDirFromPath.html">
+		<param name="Name" value="Function _FileRemoveDirIfEmpty">
+		<param name="Local" value="_FileRemoveDirIfEmpty.html">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="diskexist">
@@ -123,6 +125,16 @@
 		<param name="Local" value="_FileGetDirFromPath.html">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filegetprofilesdir">
+		<param name="Name" value="Function _FileGetProfilesDir">
+		<param name="Local" value="_FileGetProfilesDir.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filegetsystemdrive">
+		<param name="Name" value="Function _FileGetSystemDrive">
+		<param name="Local" value="_FileGetSystemDrive.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="fileisdir">
 		<param name="Name" value="Function _FileIsDir">
 		<param name="Local" value="_FileIsDir.html">
@@ -143,6 +155,16 @@
 		<param name="Local" value="_FileRecurseBuildList.html">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="fileremovedir">
+		<param name="Name" value="Function _FileRemoveDirIfEmpty">
+		<param name="Local" value="_FileRemoveDirIfEmpty.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="fileremovedirifempty">
+		<param name="Name" value="Function _FileRemoveDirIfEmpty">
+		<param name="Local" value="_FileRemoveDirIfEmpty.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="filerename">
 		<param name="Name" value="Function _FileRenameDlg">
 		<param name="Local" value="_FileRenameDlg.html">
@@ -161,6 +183,19 @@
 		<param name="Name" value="functions">
 		<param name="Name" value="Functions">
 		<param name="Local" value="Function Reference.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="get">
+		<param name="Name" value="Function _FileGetDirFromPath">
+		<param name="Local" value="_FileGetDirFromPath.html">
+		<param name="Name" value="Function _FileGetFileName">
+		<param name="Local" value="_FileGetFileName.html">
+		<param name="Name" value="Function _FileGetSystemDrive">
+		<param name="Local" value="_FileGetSystemDrive.html">
+		<param name="Name" value="Function _FileGetProfilesDir">
+		<param name="Local" value="_FileGetProfilesDir.html">
+		<param name="Name" value="Function _GetFileLibVersion">
+		<param name="Local" value="_GetFileLibVersion.html">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="gpl">
@@ -191,6 +226,13 @@
 		<param name="Name" value="rename">
 		<param name="Name" value="Function _FileRenameDlg">
 		<param name="Local" value="_FileRenameDlg.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="symlink">
+		<param name="Name" value="Function _DirMakeSymlink">
+		<param name="Local" value="_DirMakeSymLink.html">
+		<param name="Name" value="Function _DirIsSymlink">
+		<param name="Local" value="_DirIsSymlink.html">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="truncate">

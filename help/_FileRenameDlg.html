@@ -13,18 +13,18 @@
 <p>Renames a file or directory and displays a progress dialog.<br /></p>
 
 <p class="codeheader">
-_FileRenameDlg ( old_name, new_name[, flags] )<br />
+_FileRenameDlg ( "oldName", "newName"[, flags] )<br />
 </p>
 <p>&nbsp;</p>
 
 <p><b>Parameters</b></p>
 <table border="1" width="100%" cellspacing="0" cellpadding="3" bordercolor="#C0C0C0">
 	<tr>
-		<td width="15%">old_name</td>
+		<td width="15%">oldName</td>
 		<td width="85%">An existing file or folder to rename.  Wildcards are supported.</td>
 	</tr>
 	<tr>
-		<td width="15%">new_name</td>
+		<td width="15%">newName</td>
 		<td width="85%">The new name of the file or directory.  Target file or directory cannot already exist.</td>
 	</tr>
 	<tr>
@@ -46,8 +46,8 @@ _FileRenameDlg ( old_name, new_name[, flags] )<br />
 <p><b>Return Value</b></p>
 <b>Success</b> - True.<br />
 <b>Failure</b> - False. Raises error message dialogs for the following errors:<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- old_name not defined or does not exist.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- new_name not defined.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- oldName not defined or does not exist.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- newName not defined.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Could not create SHFILEOPTSTRUCT structure.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Dll call failed and was unable to retrieve error info using GetLastError call, otherwise sets @error to the value returned by GetLastError.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Operation aborted.<br />

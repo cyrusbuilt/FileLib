@@ -30,6 +30,14 @@
 			<param name="Local" value="_FileCompare.html">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_DirIsSymlink">
+			<param name="Local" value="_DirIsSymlink.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_DirMakeSymlink">
+			<param name="Local" value="_DirMakeSymLink.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="_DiskExist">
 			<param name="Local" value="_DiskExist.html">
 			</OBJECT>
@@ -80,6 +88,18 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="_FileTruncateName">
 			<param name="Local" value="_FileTruncateName.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileGetSystemDrive">
+			<param name="Local" value="_FileGetSystemDrive.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileGetProfilesDir">
+			<param name="Local" value="_FileGetProfilesDir.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="_FileRemoveDirIfEmpty">
+			<param name="Local" value="_FileRemoveDirIfEmpty.html">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">

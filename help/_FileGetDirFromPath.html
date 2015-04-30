@@ -13,14 +13,14 @@
 <p>Returns the directory where a specified file (full path) exists.<br /></p>
 
 <p class="codeheader">
-_FileGetDirFromPath ( Path )<br />
+_FileGetDirFromPath ( "path" )<br />
 </p>
 <p>&nbsp;</p>
 
 <p><b>Parameters</b></p>
 <table border="1" width="100%" cellspacing="0" cellpadding="3" bordercolor="#C0C0C0">
 	<tr>
-		<td width="15%">Path</td>
+		<td width="15%">path</td>
 		<td width="85%">A full path to a specific file.</td>
 	</tr>
 </table>
@@ -29,7 +29,9 @@ _FileGetDirFromPath ( Path )<br />
 
 <p><b>Return Value</b></p>
 <b>Success</b> - Returns the path of the file without the filename.<br />
-<b>Failure</b> - Sets @error = 1 and returns the parameter if the path does not exist or is a directory.
+<b>Failure</b> - Returns an empty string and sets @error to one of the following:<br />
+1 - The value specified for path is an empty string or not a string at all.<br />
+2 - The specified path does not contain a valid path separator.
 <p>&nbsp;</p>
 
 <p><b>Remarks</b></p>
