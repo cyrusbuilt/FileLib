@@ -24,10 +24,10 @@ CopyLibPolicy=0
 AutoItVer=3.3.2.0
 Author=Chris.Brunner
 ; Must be a four-octet version string. Example: 1.0.2.1
-ScriptVer=1.0.2.1
+ScriptVer=1.0.2.2
 ; Dates must be in YYYY/MM/DD format or they will be ignored.
 Date=2008/11/22
-Modified=2010/12/17
+Modified=2014/05/13
 Company=
 Copyright=
 ; Any line breaks or carriage returns (multi-line) in the description must be replaced with the pipe character '|'.
